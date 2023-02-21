@@ -17,7 +17,9 @@ export default function Home(): JSX.Element {
           <TopHeader />
           <div id="main-content" className="px-64">
             <div id="header" >
-              <Header />
+              <Header >
+                  <h1>ok</h1>
+              </Header>
             </div>
           </div>
         </main>
