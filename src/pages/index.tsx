@@ -12,13 +12,15 @@ export default function Home(): JSX.Element {
   return (
     <>
       <NextSeo title="Home" />
-      <div>
-        <main className="">
-          <TopHeader />
+      <div className='w-screen'>
+        <main className="w-full">
+          <div className="w-screen bg-green-500">
+            <TopHeader />
+          </div>
           <div id="main-content" className="px-64">
             <div id="header" >
               <Header >
-                  <h1>ok</h1>
+                <h1>ok</h1>
               </Header>
             </div>
           </div>

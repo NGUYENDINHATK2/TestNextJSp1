@@ -1,7 +1,7 @@
 
 const TopHeader = () => {
     return (
-        <div className="bg-[#f6f4f4] px-64">
+        <div className="bg-[#fb0101] px-10 md:px-64 w-full">
             <div className="w-full">
                 <ul className="flex w-full text-[13px] space-x-1 text-gray-500 ">
                     <li>
@@ -13,9 +13,9 @@ const TopHeader = () => {
                     <li>
                         <a href="">sanpham.minhchinh.com</a>
                     </li>
-                    <li className="flex flex-1  justify-end">
-                        Thay đổi thông tin vé dò 
-                        <a href="">Tại đây</a>
+                    <li className=" flex-1  justify-end hidden md:flex">
+                        Thay đổi thông tin vé dò
+                        <a href="" className="text-blue-900"> Tại đây</a>
                     </li>
                 </ul>
             </div>
