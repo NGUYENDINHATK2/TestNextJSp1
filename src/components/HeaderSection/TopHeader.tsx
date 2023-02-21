@@ -1,9 +1,9 @@
 
 const TopHeader = () => {
     return (
-        <div className="bg-[#fff] px-5 md:px-64 w-full">
-            <div className="w-full">
-                <ul className="flex w-full md:text-[13px] text-[12px] space-x-1 text-gray-500 ">
+        <div className="bg-[#efeded] px-5 md:px-30 w-full sm:px-8 xl:px-64 ">
+            <div className="w-full  items-center justify-center">
+                <ul className="flex w-full  text-[13px] space-x-1 text-gray-500 ">
                     <li>
                         <a href="">vesoonline.com</a>
                     </li>

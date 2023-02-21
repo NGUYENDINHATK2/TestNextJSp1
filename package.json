@@ -23,6 +23,9 @@
   },
   "dependencies": {
     "@badrap/bar-of-progress": "0.1.2",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "1.4.1",
     "@heroicons/react": "1.0.4",
     "faunadb": "4.4.0",

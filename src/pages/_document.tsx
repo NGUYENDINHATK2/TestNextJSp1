@@ -20,12 +20,16 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
+          
           <script
             async
             defer
             data-domain={process.env.URL}
             src="https://plausible.io/js/plausible.js"
           />
+          <title>Next.js + Tailwind CSS</title>
+          {/* link font-awesome */}
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css?v=21" />
         </Head>
         <body>
           <Main />
