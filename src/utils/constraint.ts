@@ -48,7 +48,8 @@ const dataTitlePC = [
 const dataTitleMobile = [
     {
         id: 1,
-        title: "XSMN"
+        title: "XSMN",
+        active: true
     },
     {
         id: 2,

@@ -5,7 +5,7 @@ import { A } from '@/components'
 
 
 // ?components
-import { TopHeader, Header, TopBarMenu } from '@/components/HeaderSection'
+import { TopHeader, Header, TopBarMenu,HeaderSection } from '@/components/HeaderSection'
 export default function Home(): JSX.Element {
   const [session, loading] = useSession()
   const transition = 'color 0.15s ease, border-color 0.15s ease'
@@ -15,6 +15,7 @@ export default function Home(): JSX.Element {
         <TopHeader />
         <header className='w-full  mx-0 md:px-30 sm:px-8 xl:px-64'>
           {/*  */}
+          <HeaderSection />
           <TopBarMenu />
         </header>
       </div>
