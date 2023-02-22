@@ -20,7 +20,7 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          
+
           <script
             async
             defer
@@ -31,7 +31,14 @@ class MyDocument extends Document {
           {/* link font-awesome */}
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css?v=21" />
         </Head>
-        <body>
+        <body 
+          style={{
+            margin: 0,
+            padding: 0,
+            fontFamily: 'Inter, sans-serif',
+            boxSizing: 'border-box',
+          }}
+        >
           <Main />
           <NextScript />
         </body>

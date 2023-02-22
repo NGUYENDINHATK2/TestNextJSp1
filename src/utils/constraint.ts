@@ -40,7 +40,8 @@ const dataTitlePC = [
     {
         id: 8,
         icon: faGear,
-        title: "KENO1"
+        title: "KENO1",
+        active: true
     }
 ]
 
@@ -83,7 +84,8 @@ const dataTitleMobile = [
     },
     {
         id: 10,
-        title: "KENO"
+        title: "KENO",
+        active: true
     },
 ]
 export  { dataTitlePC , dataTitleMobile}

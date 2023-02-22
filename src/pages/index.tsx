@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
     <>
       <div id="main" className="w-screen ">
         <TopHeader />
-        <header className=' mx-0 md:px-30 w-full sm:px-8 xl:px-64'>
+        <header className='w-full  mx-0 md:px-30 sm:px-8 xl:px-64'>
           {/*  */}
           <TopBarMenu />
         </header>
