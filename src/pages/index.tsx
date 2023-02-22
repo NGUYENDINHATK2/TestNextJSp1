@@ -8,6 +8,7 @@ import { A } from '@/components'
 import { TopHeader, FormPrint, TopBarMenu, HeaderSection } from '@/components/HeaderSection'
 import { LeftSection, CenterSection, RightSection } from '@/components/BodySection'
 import Footer from '@/components/Footer/Footer'
+import ModuleBottom from '@/components/Footer/ModuleBottom'
 export default function Home(): JSX.Element {
   const [session, loading] = useSession()
   const transition = 'color 0.15s ease, border-color 0.15s ease'
@@ -26,6 +27,10 @@ export default function Home(): JSX.Element {
           <CenterSection />
           <RightSection />
         </main>
+        <footer>
+          <ModuleBottom/>
+          <Footer />
+        </footer>
       </div>
 
     </>

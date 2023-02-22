@@ -13,7 +13,7 @@ const LeftListSection = () => {
             {
                 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item, index) => {
                     return (
-                        <div className="w-full bg-gray-200 overflow-hidden  rounded-b p-1.5 px-2 flex ">
+                        <div key={index} className="w-full bg-gray-200 overflow-hidden  rounded-b p-1.5 px-2 flex ">
                             <h1 className="  text-sm ">Xo so mien nam</h1>
                             <img
                                 className="w-5 h-5 ml-auto"
