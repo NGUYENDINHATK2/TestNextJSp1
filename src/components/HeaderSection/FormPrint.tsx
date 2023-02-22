@@ -35,8 +35,8 @@ const FormPrint = () => {
                             />
                             <h5 className="text-white">4 / A4</h5>
                         </div>
-                        <button className=" ml-2 rounded-2xl py-1 px-2 text-white  bg-[#faad3a]">
-                            Cai dat
+                        <button className=" ml-2 text-sm  rounded-2xl py-1.5 px-2 text-white  bg-[#faad3a]">
+                           <b> Cài đặt</b>
                         </button>
                     </div>
                     <div className="flex items-center ">
