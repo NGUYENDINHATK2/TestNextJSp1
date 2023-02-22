@@ -29,9 +29,9 @@ class MyDocument extends Document {
           />
           <title>Next.js + Tailwind CSS</title>
           {/* link font-awesome */}
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css?v=21" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         </Head>
-        <body 
+        <body
           style={{
             margin: 0,
             padding: 0,
