@@ -5,7 +5,7 @@ import { A } from '@/components'
 
 
 // ?components
-import { TopHeader, Header, TopBarMenu,HeaderSection } from '@/components/HeaderSection'
+import { TopHeader, FormPrint, TopBarMenu, HeaderSection } from '@/components/HeaderSection'
 export default function Home(): JSX.Element {
   const [session, loading] = useSession()
   const transition = 'color 0.15s ease, border-color 0.15s ease'
@@ -17,6 +17,7 @@ export default function Home(): JSX.Element {
           {/*  */}
           <HeaderSection />
           <TopBarMenu />
+          <FormPrint />
         </header>
       </div>
 
