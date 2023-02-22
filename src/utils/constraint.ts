@@ -194,17 +194,12 @@ const dataKQXSTruyenThong = [
         titleMini: [
             {
                 id: '1',
-                main: "Miền Bắc",
-                title: [
-                    {
-                        id: '1',
-                        country: 'Hà Nội'
-                    },
-                    {
-                        id: '2',
-                        country: 'Hải Phòng'
-                    },
-                ]
+                title: "Miền Bắc",
+                
+            },
+            {
+                id: '2',
+                title: "Miền Trung",
             }
         ]
     }
