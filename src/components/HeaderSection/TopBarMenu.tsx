@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faVideo } from '@fortawesome/free-solid-svg-icons'
 import ItemMenu from './ItemMenu'
 const TopBarMenu = () => {
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 5dfde79d3f4219d484d48b0d9cc80e72860fbd3e
   return (
     <div className='w-full'>
       {/* pc ipad */}
