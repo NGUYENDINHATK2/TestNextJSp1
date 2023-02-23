@@ -47,7 +47,7 @@ const FormPrint = () => {
                             />
                             <h5 className="text-white font-bold">4 / A4</h5>
                         </div>
-                        <button className=" ml-2 rounded-2xl py-1 px-2 text-white  bg-[#faad3a]">
+                        <button className=" ml-2 rounded-2xl font-bold py-1 px-2 text-white  bg-[#faad3a]">
                             Cài đặt
                         </button>
                     </div>
