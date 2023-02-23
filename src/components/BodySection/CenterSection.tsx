@@ -5,6 +5,8 @@ import Node from './Node'
 import PageNav from './PageNav'
 import Notifi from './Notifi'
 import LiveLottery from './LiveLottery'
+import ResultLiveLottery from './ResultLiveLottery'
+import IntroXS from './IntroXS'
 const CenterSection = () => {
 
   
@@ -16,6 +18,9 @@ const CenterSection = () => {
       <PageNav />
       <Notifi />
       <LiveLottery />
+      <ResultLiveLottery />
+      
+      <IntroXS />
       {/*  */}
     </div>
   )

@@ -8,7 +8,7 @@ import 'react-calendar/dist/Calendar.css';
 const RightSection = () => {
   const [value, onChange] = useState(new Date());
   return (
-    <div className="w-4/12  hidden xl:block px-2 pt-5  ">
+    <div className="w-[30%]  hidden xl:block px-2 pt-5  ">
       <Calendar onChange={onChange} value={value} />
       <LeftListSection />
       <ImageBanner src="https://www.minhchinh.com/upload/images/banner/xoay90.png" alt="" />
