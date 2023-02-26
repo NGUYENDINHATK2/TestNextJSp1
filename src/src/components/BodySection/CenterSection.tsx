@@ -7,7 +7,6 @@ import Notifi from './Notifi'
 import LiveLottery from './LiveLottery'
 import ResultLiveLottery from './ResultLiveLottery'
 import IntroXS from './IntroXS'
-import LotteryStatistic from './LotteryStatistic'
 const CenterSection = () => {
 
   
@@ -22,7 +21,6 @@ const CenterSection = () => {
       <ResultLiveLottery />
       
       <IntroXS />
-      <LotteryStatistic/>
       {/*  */}
     </div>
   )

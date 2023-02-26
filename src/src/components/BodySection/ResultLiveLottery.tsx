@@ -800,23 +800,6 @@ const ResultLiveLottery = () => {
               </tr>
             </tbody>
           </table>
-          <table className='
-          w-full
-          '>
-            <tbody>
-                <tr>
-                  <td className='w-[100%/3]'>
-                    
-                  </td>
-                  <td className='w-[100%/3]'>
-                    <h1>ok</h1>
-                  </td>
-                  <td className='w-[100%/3]'>
-                    <h1>ok</h1>
-                  </td>
-                </tr>
-            </tbody>
-          </table>
         </div>
       </div>
     </div>
@@ -824,11 +807,3 @@ const ResultLiveLottery = () => {
 }
 
 export default ResultLiveLottery
-
-const TableRes = () => {
-  return(
-    <div className='w-full'>
-
-    </div>
-  )
-}

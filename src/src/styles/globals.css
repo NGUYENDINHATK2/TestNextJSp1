@@ -1,0 +1,221 @@
+.bar-of-progress::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px currentColor, 0 0 5px currentColor;
+  transform: rotate(3deg) translate(0, -4px);
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/fonts/inter-var-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+._active {
+  color: rgb(3, 3, 3);
+}
+
+.table_kqxs thead tr .tentinh a {
+  color: #0b81e2;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.table_kqxs thead,
+.table_kqxs tbody {
+  background-color: #fff;
+}
+.table_kqxs thead tr .loaive {
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.8em;
+  background-color: #eeecec;
+}
+.table_kqxs td {
+  text-align: center;
+}
+
+.box_kqxs .tenbkqxs {
+  background: url(https://www.minhchinh.com/template/images/button.png) -23px -316px
+    no-repeat #c50000;
+  padding: 5px 20px 5px 130px;
+}
+.box_kqxs .title,
+.box_kqxs .title a {
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+element.style {
+}
+#contentmodule div,
+#contentmodule iframe,
+#contentmodule img,
+#contentmodule span,
+#contentmodule ul {
+  max-width: 100% !important;
+}
+.box_kqxs .ngaykqxs {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  float: right;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  padding: 2px 5px 0;
+  background: url(https://www.minhchinh.com/template/images/button.png) left -177px
+    #000;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #fc6;
+  border-top: 0;
+  z-index: 10;
+}
+.ngaykqxstt {
+  display: block;
+  padding: 5px 0 0;
+}
+.box_kqxs .date {
+  text-align: center;
+  color: #fff !important;
+}
+.box_kqxs .date .daymonth {
+  display: table;
+  font-size: 19px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  line-height: 22px;
+  text-align: center;
+}
+.box_kqxs .date .year {
+  font-size: 14px;
+  margin: 2px auto;
+}
+.giai_tam {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 40px;
+}
+.giai_bay {
+  color: #003cff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.giai_sau {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.giai_nam {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.giai_bon {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.giai :hover {
+  color: #ff0000;
+  background-color: #fc6;
+}
+.giai_ba ,.giai_hai{
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ten_giai_docdac{
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.giai_docdac{
+  color: #ec1515;
+  font-weight: bold;
+  font-size: 20px;
+}
+.end-table{
+  font-size: 12px;
+  font-family: inherit;
+}
+.boxtools {
+  width: 100%;
+  background: #f4f4f4;
+  height: 29px;
+  border-bottom: solid 1px #ccc;
+}
+.config_Numbers {
+  line-height: 29px;
+  float: left;
+}
+.config_Numbers span:first-child {
+  border-left: solid 1px #ccc;
+}
+.config_Numbers span {
+  padding: 7px;
+  border-right: solid 1px #ccc;
+  cursor: pointer;
+}
+.config_Numbers {
+  line-height: 29px;
+  float: left;
+  font-size: 12px;
+}
+.giai7lo {
+  line-height: 29px;
+  float: right;
+  font-size: 12px;
+}
+.giai7lo span, .giai7lohome span {
+  padding: 7px;
+  border-right: solid 1px #ccc;
+  cursor: pointer;
+}
+.btnshare, .btnsharett {
+  background: url(https://www.minhchinh.com/template/images/share_this.png) left no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+}
+.btnlinkveso, .btnlinkvesott {
+  background: url(/template/images/btnveso.png) left no-repeat;
+  background-size: 30px;
+  padding-left: 35px;
+  line-height: 33px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
