@@ -341,7 +341,41 @@ const dataTitlePC = [
 
     }
 ]
+
+const data12Zodiac = [
+    {
+        id: 1,
+        title: "100 CON SỐ",
+        // content: {
+            nameAnimal : ["Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư","Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư"],
+            column1 : [1, 13, 25, 37, 49, 61, 73, 85, 97, 10, 12, 13,10, 12, 13,10, 12, 13],
+            column2 : [1, 13, 25, 37, 49, 61, 73, 85, 97, 10, 12, 13,10, 12, 13,10, 12, 13],
+            column3 : [1, 13, 25, 37, 49, 61, 73,3],
+        // }
+    },  
+    {
+        id: 2,
+        title: "12 CON GIÁP",
+        // content: {
+            nameAnimal : ["Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư","Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư"],
+            column1 : [1, 13, 25, 37, 49, 61, 73, 85, ],
+            column2 : [1, 13, 25, 37, 12, 13,10, 12, 13],
+            column3 : [1, 13, 25,,3],
+        // }
+    },  
+    {
+        id: 3,
+        title: "THỜ CÚNG",
+        // content: {
+            nameAnimal : ["Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư","Bạch Dương", "Kim Ngưu", "Song Tử", "Cự Giải", "Sư Tử", "Xử Nữ", "Thiên Bình", "Bọ Cạp", "Nhân Mã", "Ma Kết", "Bảo Bình", "Song Ngư"],
+            column1 : [1, 13, 25, 37, 49, 61, 73, 85,1, 13, 25, 37, 49, 61, 73, 85, 97, 10, 12, 13,10, ,10, 12, 13 ],
+            column2 : [1, 13, 25, 37, 12, 13,10, 12, 131, 13, 25, 37, 49, 61, 73, 85, 97, 10,12, 13,10, 12, 13],
+            column3 : [1, 13, 25,,3],
+        // }
+    },  
+]
 export {
+    data12Zodiac,
     dataTitlePC,
     dataTitleMobile, dataTrucTiep, dataKQXSTruyenThong, dataDienToan, dataDauDuoi, dataThongKe, dataInVeDo, dataThongKeXS
 }
